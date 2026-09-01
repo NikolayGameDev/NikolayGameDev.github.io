@@ -1,0 +1,29 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="80" x2="632" y2="654" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A17BFF"/><stop offset=".52" stop-color="#FF5BBD"/><stop offset="1" stop-color="#D7FF45"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientTransform="translate(277 224) rotate(43) scale(300)">
+      <stop stop-color="white" stop-opacity=".42"/><stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="124" y="140" width="472" height="472" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="720" height="720" rx="150" fill="#101118"/>
+  <rect x="32" y="32" width="656" height="656" rx="128" fill="url(#bg)"/>
+  <rect x="32" y="32" width="656" height="656" rx="128" fill="url(#shine)"/>
+  <path d="M92 526C173 432 197 289 286 205C362 134 469 134 628 225" stroke="#101118" stroke-opacity=".11" stroke-width="36" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="162" y="162" width="396" height="396" rx="112" fill="#12131A"/>
+    <circle cx="360" cy="335" r="126" fill="#D7FF45"/>
+    <circle cx="319" cy="308" r="16" fill="#111219"/>
+    <circle cx="401" cy="308" r="16" fill="#111219"/>
+    <path d="M305 370C335 404 386 408 419 368" stroke="#111219" stroke-width="18" stroke-linecap="round"/>
+    <path d="M247 235L211 206M473 235L509 206" stroke="#D7FF45" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <rect x="115" y="105" width="166" height="54" rx="27" fill="#111219"/>
+  <text x="198" y="139" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="2">OMEGA</text>
+  <rect x="432" y="548" width="170" height="62" rx="21" fill="#111219" transform="rotate(-6 432 548)"/>
+  <text x="516" y="587" fill="#D7FF45" font-family="Arial, sans-serif" font-size="23" font-weight="900" text-anchor="middle" transform="rotate(-6 516 587)">CALL!</text>
+</svg>
